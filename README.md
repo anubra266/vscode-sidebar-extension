@@ -21,13 +21,13 @@ git clone https://github.com/anubra266/vscode-sidebar-extension.git hello world
 cd hello-world
 
 # Install dependencies for both the extension and webview UI source code
-npm run install:all
+pnpm run install:all
 
 # Build webview UI source code in watch mode
-npm run watch:ui
+pnpm run watch:ui
 
 # Build extension source code in watch mode
-npm run watch:extension
+pnpm run watch:extension
 
 # Open sample in VS Code
 code .
