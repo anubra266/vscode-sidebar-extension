@@ -23,11 +23,8 @@ cd hello-world
 # Install dependencies for both the extension and webview UI source code
 pnpm run install:all
 
-# Build webview UI source code in watch mode
+# Build extension UI source code in watch mode
 pnpm run watch:ui
-
-# Build extension source code in watch mode
-pnpm run watch:extension
 
 # Open sample in VS Code
 code .
